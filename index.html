@@ -6,26 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Summary Component | Notorious Tomijo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main>
-        <div>
-            <img src="images/illustration-hero.svg">
-            <div>
+    <main class="content">
+        <div class="card">
+            <img src="images/illustration-hero.svg" class="hero">
+            <div class="card-content">
                 <h1>Order Summary</h1>
-                <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                <p class="text-info">You can now listen to millions of songs, audiobooks, and podcasts on any device
+                    anywhere you like!
                 </p>
-                <div>
-                    <img src="images/icon-music.svg">
+                <div class="annual-plan-cost">
+
+                    <img src="images/icon-music.svg" class="music-icon">
                     <div>
                         <h3>Annual plan</h3>
                         <p>$59.99/year</p>
                     </div>
-                    <a href="#">Change</a>
+                    <a href="#" class="change-plan">Change</a>
                 </div>
-                <button>Proceed to Payment</button>
-                <button>Cancel Order</button>
+
+
+
+
+                <button class="primary-btn">Proceed to Payment</button>
+                <button class="secondary-btn">Cancel Order</button>
             </div>
         </div>
     </main>
