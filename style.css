@@ -4,6 +4,7 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     font-size: 1rem;
+    background-color:hsl(225, 100%, 94%);
 }
 
 .content {
@@ -75,7 +76,7 @@ p {
     margin-right: 10px;
 }
 
-h3 {
+h2 {
     font-size: 1rem;
     margin-bottom: 0;
 }

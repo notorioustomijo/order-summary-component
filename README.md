@@ -16,7 +16,7 @@ This is my solution to the Order summary card challenge on Frontend Mentor(https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-
+ 
 ## Overview
 
 ### The challenge
